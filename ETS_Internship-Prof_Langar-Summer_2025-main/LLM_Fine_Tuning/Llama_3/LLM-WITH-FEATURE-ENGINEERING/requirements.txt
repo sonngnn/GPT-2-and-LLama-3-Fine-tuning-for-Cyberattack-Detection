@@ -1,0 +1,49 @@
+# Core dependencies
+torch
+torchvision
+torchaudio
+
+# HuggingFace ecosystem
+transformers
+datasets
+tokenizers
+accelerate
+peft
+
+# Quantization and optimization
+bitsandbytes
+optimum
+
+# Data science and ML
+numpy
+pandas
+scikit-learn
+scipy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Progress bars and utilities
+tqdm
+rich
+
+# System monitoring
+psutil
+gpustat
+
+# Configuration and logging
+pyyaml
+wandb
+tensorboard
+
+# Development tools
+jupyter
+ipywidgets
+black
+flake
+
+# Optional: For enhanced CSV processing
+openpyxl
+xlsxwriter

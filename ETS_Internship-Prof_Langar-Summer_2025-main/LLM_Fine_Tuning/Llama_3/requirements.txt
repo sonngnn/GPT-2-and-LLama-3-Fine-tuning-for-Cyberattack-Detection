@@ -1,0 +1,17 @@
+torch
+transformers
+datasets
+peft
+accelerate
+bitsandbytes
+pandas
+numpy
+scipy
+scikit-learn
+tqdm
+wandb
+tensorboard
+safetensors
+python-dotenv
+huggingface_hub
+tiktoken

@@ -1,0 +1,63 @@
+name: llama-pipeline
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - huggingface
+  - defaults
+
+dependencies:
+  - python
+  - pip
+  
+  # PyTorch ecosystem
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda
+  
+  # CUDA and GPU support
+  - cudatoolkit
+  - cudnn
+  
+  # Scientific computing
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  
+  # Visualization
+  - matplotlib
+  - seaborn
+  - plotly
+  
+  # Utilities
+  - tqdm
+  - pyyaml
+  - psutil
+  
+  # Jupyter and development
+  - jupyter
+  - ipywidgets
+  - black
+  
+  # Pip dependencies (not available via conda)
+  - pip:
+    - transformers
+    - datasets
+    - accelerate
+    - peft
+    - bitsandbytes
+    - optimum
+    - wandb
+    - tensorboard
+    - rich
+    - gpustat
+    - openpyxl
+    - xlsxwriter
+
+# Post-installation setup
+# Run these commands after environment creation:
+# conda activate llama-pipeline
+# python -c "import torch; print(f'PyTorch: {torch.__version__}, CUDA: {torch.cuda.is_available()}')"
+# huggingface-cli login  # Optional: for private models
